@@ -1,0 +1,27 @@
+name: this is a yaml file
+on: 
+  push:
+  branches: [main]
+jobs:
+   build:
+       runs-on: windows-latest
+       steps: 
+         - name: checkout code
+           uses: actions/checkout@v4
+         - name: setup asp.net core
+           uses: actions/setup-dotnet@v4
+           with:
+            dotnet-version: 8.0.x
+         - name: retore dependencies
+           run: dotnet restore
+         - name: build project
+           run: dotnet build --no-restore
+         - name: run tests
+           run: dotnet test --no-restore --verbosity normal
+         - name: build project
+           run: dotnet build --configration release --no-restore
+         - name: auploud artifact
+           uses: actions/upload-artifact@v4
+           with:
+             name: testapicicd
+             path: ./publish

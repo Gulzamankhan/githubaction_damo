@@ -1,0 +1,7 @@
+<Solution>
+  <Folder Name="/.github/" />
+  <Folder Name="/.github/workflows/">
+    <File Path="damo.yaml" />
+  </Folder>
+  <Project Path="github_action_damo/github_action_damo.csproj" />
+</Solution>

@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "jGq5jEaBd10=",
+  "success": true,
+  "projectFilePath": "E:\\testapp\\github_action_damo\\github_action_damo\\github_action_damo.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\BALOCH ZADA\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.23.0\\microsoft.visualstudio.azure.containers.tools.targets.1.23.0.nupkg.sha512"
+  ],
+  "logs": []
+}
