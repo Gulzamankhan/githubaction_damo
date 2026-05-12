@@ -1,7 +1,7 @@
 name: this is a yaml file
 on: 
   push:
-  branches: [main]
+    branches: [main]
 jobs:
    build:
        runs-on: windows-latest
@@ -20,6 +20,8 @@ jobs:
            run: dotnet test --no-restore --verbosity normal
          - name: build project
            run: dotnet build --configration release --no-restore
+         - name: publish project
+           run: dotnet publish --configuration release --no-restore -o ./publish
          - name: auploud artifact
            uses: actions/upload-artifact@v4
            with:
