@@ -3,20 +3,20 @@
   "WorkspaceRootPath": "E:\\testapp\\github_action_damo\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{641A4F37-7B31-4503-8DDB-5D47A883D4C4}|github_action_damo\\github_action_damo.csproj|e:\\testapp\\github_action_damo\\github_action_damo\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{641A4F37-7B31-4503-8DDB-5D47A883D4C4}|github_action_damo\\github_action_damo.csproj|solutionrelative:github_action_damo\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E7A3C856-6834-D657-F2F0-05592DF2DDE9}|workflows{E7A3C856-6834-D657-F2F0-05592DF2DDE9}|E:\\testapp\\github_action_damo\\damo.yaml||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{E7A3C856-6834-D657-F2F0-05592DF2DDE9}|workflows{E7A3C856-6834-D657-F2F0-05592DF2DDE9}|solutionrelative:damo.yaml||{8B382828-6202-11D1-8870-0000F87579D2}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C3C5B301-77E5-45B8-BC43-9B22FFF03D95}|NewFolder1{C3C5B301-77E5-45B8-BC43-9B22FFF03D95}|E:\\testapp\\github_action_damo\\damo.yaml||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{C3C5B301-77E5-45B8-BC43-9B22FFF03D95}|NewFolder1{C3C5B301-77E5-45B8-BC43-9B22FFF03D95}|solutionrelative:damo.yaml||{8B382828-6202-11D1-8870-0000F87579D2}"
+      "AbsoluteMoniker": "D:0:0:{2BB7004B-337A-CEC3-2341-DB90D9762BEA}|github_action_damo\\github_action_damo.csproj|e:\\testapp\\github_action_damo\\github_action_damo\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2BB7004B-337A-CEC3-2341-DB90D9762BEA}|github_action_damo\\github_action_damo.csproj|solutionrelative:github_action_damo\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{641A4F37-7B31-4503-8DDB-5D47A883D4C4}|github_action_damo\\github_action_damo.csproj|e:\\testapp\\github_action_damo\\github_action_damo\\controllers\\damocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{641A4F37-7B31-4503-8DDB-5D47A883D4C4}|github_action_damo\\github_action_damo.csproj|solutionrelative:github_action_damo\\controllers\\damocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{2BB7004B-337A-CEC3-2341-DB90D9762BEA}|github_action_damo\\github_action_damo.csproj|e:\\testapp\\github_action_damo\\github_action_damo\\controllers\\damocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2BB7004B-337A-CEC3-2341-DB90D9762BEA}|github_action_damo\\github_action_damo.csproj|solutionrelative:github_action_damo\\controllers\\damocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{641A4F37-7B31-4503-8DDB-5D47A883D4C4}|github_action_damo\\github_action_damo.csproj|e:\\testapp\\github_action_damo\\github_action_damo\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{641A4F37-7B31-4503-8DDB-5D47A883D4C4}|github_action_damo\\github_action_damo.csproj|solutionrelative:github_action_damo\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{2BB7004B-337A-CEC3-2341-DB90D9762BEA}|github_action_damo\\github_action_damo.csproj|e:\\testapp\\github_action_damo\\github_action_damo\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2BB7004B-337A-CEC3-2341-DB90D9762BEA}|github_action_damo\\github_action_damo.csproj|solutionrelative:github_action_damo\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,7 +26,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
@@ -34,7 +34,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "categoryController.cs",
               "DocumentMoniker": "E:\\testapp\\github_action_damo\\github_action_damo\\Controllers\\categoryController.cs",
               "RelativeDocumentMoniker": "github_action_damo\\Controllers\\categoryController.cs",
@@ -47,13 +47,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "damo.yaml",
               "DocumentMoniker": "E:\\testapp\\github_action_damo\\damo.yaml",
               "RelativeDocumentMoniker": "damo.yaml",
               "ToolTip": "E:\\testapp\\github_action_damo\\damo.yaml",
               "RelativeToolTip": "damo.yaml",
-              "ViewState": "AgIAAA0AAAAAAAAAAAAAABoAAAAcAAAAAAAAAA==",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAABcAAABQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003775|",
               "WhenOpened": "2026-05-09T11:57:28.416Z",
               "EditorCaption": ""
@@ -68,8 +68,7 @@
               "RelativeToolTip": "github_action_damo\\Controllers\\damoController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-09T11:53:18.924Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-09T11:53:18.924Z"
             },
             {
               "$type": "Document",
@@ -81,8 +80,7 @@
               "RelativeToolTip": "github_action_damo\\Controllers\\HomeController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-09T11:52:29.219Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-09T11:52:29.219Z"
             }
           ]
         }
