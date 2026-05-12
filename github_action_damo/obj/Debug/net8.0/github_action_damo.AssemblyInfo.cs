@@ -15,7 +15,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("github_action_damo")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+bea69ff4bf033e1ee7e6199fb32dc691accf3abc")]
 [assembly: System.Reflection.AssemblyProductAttribute("github_action_damo")]
 [assembly: System.Reflection.AssemblyTitleAttribute("github_action_damo")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

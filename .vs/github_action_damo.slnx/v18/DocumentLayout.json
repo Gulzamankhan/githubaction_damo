@@ -3,6 +3,22 @@
   "WorkspaceRootPath": "E:\\testapp\\github_action_damo\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{2BB7004B-337A-CEC3-2341-DB90D9762BEA}|github_action_damo\\github_action_damo.csproj|e:\\testapp\\github_action_damo\\github_action_damo\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{2BB7004B-337A-CEC3-2341-DB90D9762BEA}|github_action_damo\\github_action_damo.csproj|solutionrelative:github_action_damo\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2BB7004B-337A-CEC3-2341-DB90D9762BEA}|github_action_damo\\github_action_damo.csproj|e:\\testapp\\github_action_damo\\github_action_damo\\.dockerignore||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{2BB7004B-337A-CEC3-2341-DB90D9762BEA}|github_action_damo\\github_action_damo.csproj|solutionrelative:github_action_damo\\.dockerignore||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2BB7004B-337A-CEC3-2341-DB90D9762BEA}|github_action_damo\\github_action_damo.csproj|e:\\testapp\\github_action_damo\\github_action_damo\\.dockerignore||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{2BB7004B-337A-CEC3-2341-DB90D9762BEA}|github_action_damo\\github_action_damo.csproj|solutionrelative:github_action_damo\\.dockerignore||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E7A3C856-6834-D657-F2F0-05592DF2DDE9}|workflows{E7A3C856-6834-D657-F2F0-05592DF2DDE9}|E:\\testapp\\github_action_damo\\damo.yaml||{06C066C6-04A2-4E5D-8202-439FD4234EF1}",
+      "RelativeMoniker": "D:0:0:{E7A3C856-6834-D657-F2F0-05592DF2DDE9}|workflows{E7A3C856-6834-D657-F2F0-05592DF2DDE9}|solutionrelative:damo.yaml||{06C066C6-04A2-4E5D-8202-439FD4234EF1}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{2BB7004B-337A-CEC3-2341-DB90D9762BEA}|github_action_damo\\github_action_damo.csproj|e:\\testapp\\github_action_damo\\github_action_damo\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2BB7004B-337A-CEC3-2341-DB90D9762BEA}|github_action_damo\\github_action_damo.csproj|solutionrelative:github_action_damo\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -22,28 +38,75 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 2,
           "Children": [
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": ".dockerignore",
+              "DocumentMoniker": "E:\\testapp\\github_action_damo\\github_action_damo\\.dockerignore",
+              "RelativeDocumentMoniker": "github_action_damo\\.dockerignore",
+              "ToolTip": "E:\\testapp\\github_action_damo\\github_action_damo\\.dockerignore",
+              "RelativeToolTip": "github_action_damo\\.dockerignore",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2026-05-12T11:44:55.568Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": ".dockerignore",
+              "DocumentMoniker": "E:\\testapp\\github_action_damo\\github_action_damo\\.dockerignore",
+              "RelativeDocumentMoniker": "github_action_damo\\.dockerignore",
+              "ToolTip": "E:\\testapp\\github_action_damo\\github_action_damo\\.dockerignore",
+              "RelativeToolTip": "github_action_damo\\.dockerignore",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2026-05-12T11:41:19.745Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "Dockerfile",
+              "DocumentMoniker": "E:\\testapp\\github_action_damo\\github_action_damo\\Dockerfile",
+              "RelativeDocumentMoniker": "github_action_damo\\Dockerfile",
+              "ToolTip": "E:\\testapp\\github_action_damo\\github_action_damo\\Dockerfile",
+              "RelativeToolTip": "github_action_damo\\Dockerfile",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2026-05-12T08:24:39.59Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "damo.yaml",
+              "DocumentMoniker": "E:\\testapp\\github_action_damo\\damo.yaml",
+              "RelativeDocumentMoniker": "damo.yaml",
+              "ToolTip": "E:\\testapp\\github_action_damo\\damo.yaml",
+              "RelativeToolTip": "damo.yaml",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAAABcAAABQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003775|",
+              "WhenOpened": "2026-05-12T03:55:06.728Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "categoryController.cs",
               "DocumentMoniker": "E:\\testapp\\github_action_damo\\github_action_damo\\Controllers\\categoryController.cs",
               "RelativeDocumentMoniker": "github_action_damo\\Controllers\\categoryController.cs",
               "ToolTip": "E:\\testapp\\github_action_damo\\github_action_damo\\Controllers\\categoryController.cs",
               "RelativeToolTip": "github_action_damo\\Controllers\\categoryController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-12T02:39:44.966Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-12T02:39:44.966Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 5,
               "Title": "damoController.cs",
               "DocumentMoniker": "E:\\testapp\\github_action_damo\\github_action_damo\\Controllers\\damoController.cs",
               "RelativeDocumentMoniker": "github_action_damo\\Controllers\\damoController.cs",
@@ -55,7 +118,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 6,
               "Title": "HomeController.cs",
               "DocumentMoniker": "E:\\testapp\\github_action_damo\\github_action_damo\\Controllers\\HomeController.cs",
               "RelativeDocumentMoniker": "github_action_damo\\Controllers\\HomeController.cs",

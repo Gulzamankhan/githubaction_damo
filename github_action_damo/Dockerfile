@@ -1,30 +1,32 @@
-# See https://aka.ms/customizecontainer to learn how to customize your debug container and how Visual Studio uses this Dockerfile to build your images for faster debugging.
-
-# This stage is used when running from VS in fast mode (Default for Debug configuration)
-FROM mcr.microsoft.com/dotnet/aspnet:8.0 AS base
-USER $APP_UID
-WORKDIR /app
-EXPOSE 8080
-EXPOSE 8081
-
-
-# This stage is used to build the service project
+# ==================== Build Stage ====================
 FROM mcr.microsoft.com/dotnet/sdk:8.0 AS build
-ARG BUILD_CONFIGURATION=Release
 WORKDIR /src
+
+# Copy project files
 COPY ["github_action_damo/github_action_damo.csproj", "github_action_damo/"]
-RUN dotnet restore "./github_action_damo/github_action_damo.csproj"
+RUN dotnet restore "github_action_damo/github_action_damo.csproj"
+
+# Copy source code
 COPY . .
+
+# Build and Publish
 WORKDIR "/src/github_action_damo"
-RUN dotnet build "./github_action_damo.csproj" -c $BUILD_CONFIGURATION -o /app/build
+RUN dotnet publish "github_action_damo.csproj" -c Release -o /app/publish --no-restore
 
-# This stage is used to publish the service project to be copied to the final stage
-FROM build AS publish
-ARG BUILD_CONFIGURATION=Release
-RUN dotnet publish "./github_action_damo.csproj" -c $BUILD_CONFIGURATION -o /app/publish /p:UseAppHost=false
+# ==================== Final Runtime Stage ====================
+FROM mcr.microsoft.com/dotnet/aspnet:8.0 AS final
 
-# This stage is used in production or when running from VS in regular mode (Default when not using the Debug configuration)
-FROM base AS final
 WORKDIR /app
-COPY --from=publish /app/publish .
+
+# Copy published files from build stage
+COPY --from=build /app/publish .
+
+# Expose port
+EXPOSE 8080
+
+# Environment settings
+ENV ASPNETCORE_URLS=http://+:8080
+ENV ASPNETCORE_ENVIRONMENT=Production
+
+# Run the application
 ENTRYPOINT ["dotnet", "github_action_damo.dll"]
